@@ -1,0 +1,23 @@
+{
+  "name": "job-tracker-mvp",
+  "version": "1.0.0",
+  "description": "AI-assisted job application tracker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniyalahmad45/job-tracker-mvp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniyalahmad45/job-tracker-mvp/issues"
+  },
+  "homepage": "https://github.com/daniyalahmad45/job-tracker-mvp#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
