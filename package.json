@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/daniyalahmad45/job-tracker-mvp#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "puppeteer": "^24.34.0"
   }
 }

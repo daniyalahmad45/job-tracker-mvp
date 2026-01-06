@@ -1,9 +1,9 @@
 /**
- 
-Fetches a URL with a timeout and proper error handling.
-@param {string} url - The URL to fetch
-@param {number} timeoutMs - Timeout in milliseconds (default: 5000)
-@returns {Promise<{success: boolean, data?: string, error?: string}>}*/
+ * Fetches a URL with a timeout and proper error handling.
+ * @param {string} url - The URL to fetch
+ * @param {number} timeoutMs - Timeout in milliseconds (default: 5000)
+ * @returns {Promise<{success: boolean, data?: string, error?: string}>}
+ */
 async function fetchWithTimeout(url, timeoutMs = 5000) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
